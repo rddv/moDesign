@@ -31,10 +31,11 @@
 		padding-top: 5px;
 	}
 	.order__buy-button{
-		display: inline-block;
+		display: block;
 		text-align: center;
 		margin: 10px auto;
 		float: none;
+		max-width: 250px;
 	}
 	.order__sell{
 		text-align: center;

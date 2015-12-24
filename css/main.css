@@ -17,11 +17,11 @@
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-	
+		border: #d00 2px solid;
 }
 body input:required:valid,
 body textarea:required:valid {
-	
+	border: #090 2px solid;
 }
 *{
 	padding: 0;
@@ -189,22 +189,43 @@ h1{
 }
 .order__form{
 	margin: 0;
-	padding: 15px 30px;
+	padding: 0;
 }
 .order__request-a-call{
 	text-align: center;
-	margin: 15px auto;
+	margin: 15px auto 20px;
+	font-family: "RobotoRegular";
+	text-transform: uppercase;
 }
 .order__form-name,
 .order__form-phone{
+	border: #999 2px solid;
 	display: block;
-	width: 90%;
+	width: 95%;
 	line-height: 2em;
-	margin-bottom: 12px;
+	margin: 0 auto 12px;
+	padding: 0;
 }
-.order__buy-button{
-	text-align: center;
+form .order__buy-button{
 	display: block;
+	float: none;
+	margin: 10px auto 0;
+}
 
-	
+.article{
+	margin-bottom: 25px;
+}
+.article__name{
+	margin: 10px 0 15px;
+	text-transform: uppercase;
+}
+.article__name a{
+	text-decoration: underline;
+}
+.article__img{
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+.sidebar ul{
+	list-style-type: none;
 }
